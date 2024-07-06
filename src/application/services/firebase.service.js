@@ -1,11 +1,15 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('../../firestore.json'); // Caminho para o arquivo JSON de configuração do Firebase
+const serviceAccount = require('./firestore.json'); // Path to your Firebase JSON configuration file
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://your-project-id.firebaseio.com' // Substitua com a URL do seu projeto Firebase
-});
+class FirebaseService {
+  constructor() {
+    admin.initializeApp({
+      credential: admin.credential.cert(serviceAccount),
+      databaseURL: 'https://your-project-id.firebaseio.com' // Replace with your Firebase project URL
+    });
 
-const db = admin.firestore();
+    this.db = admin.firestore();
+  }
+}
 
-module.exports = { db };
+module.exports = FirebaseService;

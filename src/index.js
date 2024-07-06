@@ -1,11 +1,13 @@
 const express = require('express');
-const recordsController = require('./adapter/controllers/record.controller');
+const RecordsController = require('./adapter/controllers/record.controller');
 
 const app = express();
-app.use(express.json()); // Middleware para parsear corpos JSON
+const recordsController = new RecordsController();
 
-// Rotas
-app.use('/records', recordsController);
+app.use(express.json()); // Middleware to parse JSON bodies
+
+// Use the router from the controller class
+app.use('/records', recordsController.getRouter());
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
