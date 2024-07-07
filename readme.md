@@ -1,7 +1,6 @@
 
 ## See the performance without cluster
-![screenshot](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.mp4)
-https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.mp4
+![screenshot](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.gif)
 ## See the performance with cluster
 ![screenshot](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/com_cluster.gif)
 
