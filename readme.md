@@ -1,6 +1,6 @@
 
 
-![Video without cluster](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.mp4)
+[![Assista ao vídeo](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.png)](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.mp4)
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
