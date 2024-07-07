@@ -3,14 +3,12 @@
 ![screenshot](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/sem_cluster.gif)
 ## See the performance with cluster
 ![screenshot](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/com_cluster.gif)
+## Example of output 
+![Alt text](https://storage-of-files.nyc3.cdn.digitaloceanspaces.com/github/firestore.png)
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
 </p>
 
 
