@@ -17,6 +17,7 @@
 ## Key Features
 * Main Objective
   - Use the nodejs cluster functionality to provide more performance.
+  - Before using distributed computing, it is recommended to obtain the best performance from the application server.
 * Technology
   - Nodejs
   - Nodejs with cluster module
